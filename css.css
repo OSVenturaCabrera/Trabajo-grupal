@@ -1,4 +1,20 @@
-body{
-    background-color: lightblue;
-    text-align-last: center;
-}
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+        }
+        .imagenes {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+        }
+        .imagenes img {
+            border-radius: 15px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+            width: 200px;
+            height: auto;
+        }
